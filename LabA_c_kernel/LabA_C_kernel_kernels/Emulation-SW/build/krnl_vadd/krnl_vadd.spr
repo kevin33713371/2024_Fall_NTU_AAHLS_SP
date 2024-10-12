@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="krnl_vadd" dir="">
+  <FileSets>
+    <FileSet Name="kernel_krnl_vadd" Type="DesignSrcs">
+      <File Path="/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_c_kernel/LabA_C_kernel_kernels/src/krnl_vadd.cpp"/>
+      <Config/>
+    </FileSet>
+  </FileSets>
+  <Runs/>
+</project>

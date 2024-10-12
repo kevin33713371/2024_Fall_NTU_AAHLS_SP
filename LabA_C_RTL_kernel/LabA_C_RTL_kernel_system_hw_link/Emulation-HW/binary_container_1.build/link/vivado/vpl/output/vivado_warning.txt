@@ -1,0 +1,7 @@
+IP pfm_top_smartconnect_0_0 is locked. Locked reason: * The IP Data in the repository is incompatible with the current instance (despite having identical Version and Revision). You will need to upgrade the IP before viewing the customization and generating outputs.
+ * IP 'pfm_top_smartconnect_0_0' contains one or more locked subcores.* Please upgrade the IP.
+.
+IP bd_387c_m00e_0 is locked. Locked reason: * IP definition 'SC EXIT (1.0)' for IP 'bd_387c_m00e_0' (customized with software release 2022.1) has a different revision in the IP Catalog.
+.
+IP bd_387c_m01e_0 is locked. Locked reason: * IP definition 'SC EXIT (1.0)' for IP 'bd_387c_m01e_0' (customized with software release 2022.1) has a different revision in the IP Catalog.
+.

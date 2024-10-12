@@ -1,0 +1,6 @@
+2024-10-11T23:20:52.97068200255-23:20:52 **** Incremental Build of configuration Emulation-SW for project LabA_C_kernel_kernels ****
+000-make -j8 all 
+000-make: Nothing to be done for 'all'.
+00255-
+23:20:53 Build Finished (took 282ms)
+

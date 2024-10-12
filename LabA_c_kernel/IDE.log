@@ -1,0 +1,35 @@
+22:37:59 DEBUG : Logs will be stored at '/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_c_kernel/IDE.log'.
+22:38:02 INFO  : Launching XSCT server: xsct -n  -interactive /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_c_kernel/temp_xsdb_launch_script.tcl
+22:38:03 INFO  : Registering command handlers for Vitis TCF services
+22:38:04 INFO  : Platform repository initialization has completed.
+22:38:06 INFO  : XSCT server has started successfully.
+22:38:06 INFO  : Successfully done setting XSCT server connection channel  
+22:38:06 INFO  : plnx-install-location is set to ''
+22:38:08 INFO  : Successfully done setting workspace for the tool. 
+22:38:08 INFO  : Successfully done query RDI_DATADIR 
+22:47:11 INFO  : Added binary container 'binary_container_1' in project 'LabA_C_kernel_system_hw_link'
+22:47:11 INFO  : Added kernel '[krnl_vadd - LabA_C_kernel_kernels/src/krnl_vadd.cpp]' in binary container 'binary_container_1' of project 'LabA_C_kernel_system_hw_link'
+23:27:03 INFO  : Launching executable: Emulation-SW/LabA_C_kernel Xilinx xilinx_u50_gen3x16_xdma_5_202210_1 ${project_loc:LabA_C_kernel_system}/Emulation-SW/binary_container_1.xclbin
+23:28:03 INFO  : Build configuration of 'LabA_C_kernel_system' is updated to 'Emulation-HW'
+23:28:03 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+23:28:03 INFO  : Build configuration of 'LabA_C_kernel_system_hw_link' is updated to 'Emulation-HW'
+23:28:03 INFO  : Build configuration of 'LabA_C_kernel' is updated to 'Emulation-HW'
+23:35:22 INFO  : Launching executable: Emulation-HW/LabA_C_kernel Xilinx xilinx_u50_gen3x16_xdma_5_202210_1 ${project_loc:LabA_C_kernel_system}/Emulation-HW/binary_container_1.xclbin
+23:48:15 DEBUG : Logs will be stored at '/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_c_kernel/IDE.log'.
+23:48:16 INFO  : Launching XSCT server: xsct -n  -interactive /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_c_kernel/temp_xsdb_launch_script.tcl
+23:48:17 INFO  : Platform repository initialization has completed.
+23:48:18 INFO  : XSCT server has started successfully.
+23:48:18 INFO  : plnx-install-location is set to ''
+23:48:18 INFO  : Successfully done setting XSCT server connection channel  
+23:48:18 INFO  : Successfully done setting workspace for the tool. 
+23:48:19 INFO  : Successfully done query RDI_DATADIR 
+23:48:19 INFO  : Registering command handlers for Vitis TCF services
+01:57:08 DEBUG : Logs will be stored at '/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_c_kernel/IDE.log'.
+01:57:09 INFO  : Launching XSCT server: xsct -n  -interactive /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_c_kernel/temp_xsdb_launch_script.tcl
+01:57:10 INFO  : Platform repository initialization has completed.
+01:57:11 INFO  : XSCT server has started successfully.
+01:57:11 INFO  : plnx-install-location is set to ''
+01:57:11 INFO  : Successfully done setting XSCT server connection channel  
+01:57:11 INFO  : Successfully done setting workspace for the tool. 
+01:57:12 INFO  : Successfully done query RDI_DATADIR 
+01:57:12 INFO  : Registering command handlers for Vitis TCF services

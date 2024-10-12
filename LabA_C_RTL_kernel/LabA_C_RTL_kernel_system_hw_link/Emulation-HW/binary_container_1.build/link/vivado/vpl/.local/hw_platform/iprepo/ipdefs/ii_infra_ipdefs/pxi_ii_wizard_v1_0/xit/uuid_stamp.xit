@@ -1,0 +1,9 @@
+set f [add_ipfile "uuid_stamp.xdc" ]
+
+puts_ipfile $f "create_property II.INTERFACE_UUID cell"
+puts_ipfile $f "set_property II.INTERFACE_UUID [get_property PARAM_VALUE.INTERFACE_UUID] \[get_cells\]"
+
+puts_ipfile $f "create_property II.PARAMSET_UUID cell"
+puts_ipfile $f "set_property II.PARAMSET_UUID [get_property PARAM_VALUE.PARAMSET_UUID] \[get_cells\]"
+
+close_ipfile $f

@@ -1,0 +1,711 @@
+<ENTRY>
+{
+ "thisFile": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.xclbin.link_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Sat Oct 12 00:36:25 2024",
+ "timestampMillis": "1728707785671",
+ "buildStep": {
+  "cmdId": "d7a47f76-8ba5-4e9e-a2fb-0366cf088b05",
+  "name": "v++",
+  "logFile": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/link.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2022.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" --target sw_emu --link --config binary_container_1-link.cfg -obinary_container_1.xclbin ../../LabA_C_RTL_kernel_kernels/Emulation-SW/build/krnl_vadd.xo ../../LabA_C_RTL_kernel_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_0/rtl_kernel_wizard_0.xo ",
+  "args": [
+   "--target",
+   "sw_emu",
+   "--link",
+   "--config",
+   "binary_container_1-link.cfg",
+   "-obinary_container_1.xclbin",
+   "../../LabA_C_RTL_kernel_kernels/Emulation-SW/build/krnl_vadd.xo",
+   "../../LabA_C_RTL_kernel_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_0/rtl_kernel_wizard_0.xo"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1-link.cfg",
+    "content": "platform=xilinx_u50_gen3x16_xdma_5_202210_1\nsave-temps=1\ndebug=1\nmessageDb=binary_container_1.mdb\ntemp_dir=binary_container_1.build\nreport_dir=binary_container_1.build/reports\nlog_dir=binary_container_1.build/logs\nremote_ip_cache=/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/ip_cache\n\n[advanced]\nmisc=solution_name=link\n\n[connectivity]\nnk=krnl_vadd:1:krnl_vadd_1\nnk=rtl_kernel_wizard_0:1:rtl_kernel_wizard_0_1"
+   }
+  ],
+  "cwd": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:25 2024",
+ "timestampMillis": "1728707785671",
+ "status": {
+  "cmdId": "d7a47f76-8ba5-4e9e-a2fb-0366cf088b05",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Sat Oct 12 00:36:29 2024",
+ "timestampMillis": "1728707789382",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u50_gen3x16_xdma_5_202210_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_LINK",
+  "target": "TT_SW_EMU",
+  "binaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "binary_container_1",
+    "file": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.xclbin",
+    "reports": [],
+    "uuid": ""
+   },
+   "kernels": []
+  },
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "krnl_vadd",
+     "file": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_kernels/Emulation-SW/build/krnl_vadd.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/xo/krnl_vadd/krnl_vadd/cpu_sources/krnl_vadd.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [
+     "krnl_vadd_1"
+    ],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   },
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "rtl_kernel_wizard_0",
+     "file": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_0/rtl_kernel_wizard_0.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/xo/rtl_kernel_wizard_0/rtl_kernel_wizard_0/cpu_sources/rtl_kernel_wizard_0_cmodel.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [
+     "rtl_kernel_wizard_0_1"
+    ],
+    "type": "RTL",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.1. SW Build 3524075 on 2022-04-13-17:42:45"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Oct 12 00:36:29 2024",
+ "timestampMillis": "1728707789602",
+ "report": {
+  "path": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/systemDiagramModel.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Oct 12 00:36:29 2024",
+ "timestampMillis": "1728707789605",
+ "buildStep": {
+  "cmdId": "cfed0b81-110f-4707-a7e5-b0e19168def8",
+  "name": "regiongen",
+  "logFile": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1_regiongen.log",
+  "commandLine": "/tools/Xilinx/Vitis/2022.1/bin/../runtime/bin/regiongen_new -v -m /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1.xml -r /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1.rtd -t alg -o xcl_top",
+  "args": [
+   "-v",
+   "-m",
+   "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1.xml",
+   "-r",
+   "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1.rtd",
+   "-t",
+   "alg",
+   "-o",
+   "xcl_top"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:29 2024",
+ "timestampMillis": "1728707789605",
+ "status": {
+  "cmdId": "cfed0b81-110f-4707-a7e5-b0e19168def8",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:30 2024",
+ "timestampMillis": "1728707790542",
+ "status": {
+  "cmdId": "cfed0b81-110f-4707-a7e5-b0e19168def8",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Oct 12 00:36:30 2024",
+ "timestampMillis": "1728707790545",
+ "buildStep": {
+  "cmdId": "22d8009f-544f-44d5-9939-8e12a8fcaf03",
+  "name": "gcc",
+  "logFile": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/rtl_kernel_wizard_0/rtl_kernel_wizard_0_kernel_gcc.log",
+  "commandLine": "/tools/Xilinx/Vivado/2022.1/tps/lnx64/gcc-8.3.0/bin/gcc -I . -I /tools/Xilinx/Vitis_HLS/2022.1/bin/../include -I /tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/auto_cc/include -I /tools/Xilinx/Vitis_HLS/2022.1/bin/../common/technology/autopilot/opencl -I /tools/Xilinx/Vitis/2022.1/bin/../common/technology/autopilot/opencl -I /tools/Xilinx/Vitis/2022.1/bin/../data/emulation/include -I /usr/include/x86_64-linux-gnu -std=c++14 -g -fPIC -g -c -DHLS_STREAM_THREAD_SAFE -MD -MT obj/rtl_kernel_wizard_0_cmodel.o -MP -MF obj/rtl_kernel_wizard_0_cmodel.Cd /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/xo/rtl_kernel_wizard_0/rtl_kernel_wizard_0/cpu_sources/rtl_kernel_wizard_0_cmodel.cpp -o obj/rtl_kernel_wizard_0_cmodel.o",
+  "args": [
+   "-I",
+   ".",
+   "-I",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../include",
+   "-I",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/auto_cc/include",
+   "-I",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../common/technology/autopilot/opencl",
+   "-I",
+   "/tools/Xilinx/Vitis/2022.1/bin/../common/technology/autopilot/opencl",
+   "-I",
+   "/tools/Xilinx/Vitis/2022.1/bin/../data/emulation/include",
+   "-I",
+   "/usr/include/x86_64-linux-gnu",
+   "-std=c++14",
+   "-g",
+   "-fPIC",
+   "-g",
+   "-c",
+   "-DHLS_STREAM_THREAD_SAFE",
+   "-MD",
+   "-MT",
+   "obj/rtl_kernel_wizard_0_cmodel.o",
+   "-MP",
+   "-MF",
+   "obj/rtl_kernel_wizard_0_cmodel.Cd",
+   "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/xo/rtl_kernel_wizard_0/rtl_kernel_wizard_0/cpu_sources/rtl_kernel_wizard_0_cmodel.cpp",
+   "-o",
+   "obj/rtl_kernel_wizard_0_cmodel.o"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:30 2024",
+ "timestampMillis": "1728707790546",
+ "status": {
+  "cmdId": "22d8009f-544f-44d5-9939-8e12a8fcaf03",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791477",
+ "status": {
+  "cmdId": "22d8009f-544f-44d5-9939-8e12a8fcaf03",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791480",
+ "buildStep": {
+  "cmdId": "380ed491-4d6c-4f2d-b52f-458bd574f3a3",
+  "name": "ar",
+  "logFile": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/rtl_kernel_wizard_0/rtl_kernel_wizard_0_ar.log",
+  "commandLine": "/tools/Xilinx/Vivado/2022.1/tps/lnx64/binutils-2.26/bin/ar -cr /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/rtl_kernel_wizard_0/rtl_kernel_wizard_0.csim_cu.a /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/rtl_kernel_wizard_0/obj/rtl_kernel_wizard_0_cmodel.o",
+  "args": [
+   "-cr",
+   "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/rtl_kernel_wizard_0/rtl_kernel_wizard_0.csim_cu.a",
+   "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/rtl_kernel_wizard_0/obj/rtl_kernel_wizard_0_cmodel.o"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791481",
+ "status": {
+  "cmdId": "380ed491-4d6c-4f2d-b52f-458bd574f3a3",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791528",
+ "status": {
+  "cmdId": "380ed491-4d6c-4f2d-b52f-458bd574f3a3",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791530",
+ "buildStep": {
+  "cmdId": "db79fcdf-f185-4a7f-b324-f46c3938bf9f",
+  "name": "gcc",
+  "logFile": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/krnl_vadd/krnl_vadd_kernel_gcc.log",
+  "commandLine": "/tools/Xilinx/Vivado/2022.1/tps/lnx64/gcc-8.3.0/bin/gcc -I . -I /tools/Xilinx/Vitis_HLS/2022.1/bin/../include -I /tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/auto_cc/include -I /tools/Xilinx/Vitis_HLS/2022.1/bin/../common/technology/autopilot/opencl -I /tools/Xilinx/Vitis/2022.1/bin/../common/technology/autopilot/opencl -I /tools/Xilinx/Vitis/2022.1/bin/../data/emulation/include -I /usr/include/x86_64-linux-gnu -std=c++14 -g -I /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_kernels/src -g -fPIC -g -c -DHLS_STREAM_THREAD_SAFE -MD -MT obj/krnl_vadd.o -MP -MF obj/krnl_vadd.Cd /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/xo/krnl_vadd/krnl_vadd/cpu_sources/krnl_vadd.cpp -o obj/krnl_vadd.o",
+  "args": [
+   "-I",
+   ".",
+   "-I",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../include",
+   "-I",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/auto_cc/include",
+   "-I",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../common/technology/autopilot/opencl",
+   "-I",
+   "/tools/Xilinx/Vitis/2022.1/bin/../common/technology/autopilot/opencl",
+   "-I",
+   "/tools/Xilinx/Vitis/2022.1/bin/../data/emulation/include",
+   "-I",
+   "/usr/include/x86_64-linux-gnu",
+   "-std=c++14",
+   "-g",
+   "-I",
+   "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_kernels/src",
+   "-g",
+   "-fPIC",
+   "-g",
+   "-c",
+   "-DHLS_STREAM_THREAD_SAFE",
+   "-MD",
+   "-MT",
+   "obj/krnl_vadd.o",
+   "-MP",
+   "-MF",
+   "obj/krnl_vadd.Cd",
+   "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/xo/krnl_vadd/krnl_vadd/cpu_sources/krnl_vadd.cpp",
+   "-o",
+   "obj/krnl_vadd.o"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791533",
+ "status": {
+  "cmdId": "db79fcdf-f185-4a7f-b324-f46c3938bf9f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791562",
+ "status": {
+  "cmdId": "db79fcdf-f185-4a7f-b324-f46c3938bf9f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791564",
+ "buildStep": {
+  "cmdId": "84a5c912-436b-4101-832a-16f2aad362d4",
+  "name": "ar",
+  "logFile": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/krnl_vadd/krnl_vadd_ar.log",
+  "commandLine": "/tools/Xilinx/Vivado/2022.1/tps/lnx64/binutils-2.26/bin/ar -cr /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/krnl_vadd/krnl_vadd.csim_cu.a /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/krnl_vadd/obj/krnl_vadd.o",
+  "args": [
+   "-cr",
+   "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/krnl_vadd/krnl_vadd.csim_cu.a",
+   "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/krnl_vadd/obj/krnl_vadd.o"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791564",
+ "status": {
+  "cmdId": "84a5c912-436b-4101-832a-16f2aad362d4",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791569",
+ "status": {
+  "cmdId": "84a5c912-436b-4101-832a-16f2aad362d4",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791570",
+ "buildStep": {
+  "cmdId": "4881746c-b1e9-4403-88fd-f1f43cd4a14d",
+  "name": "g++",
+  "logFile": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1_xcl_top_gpp.log",
+  "commandLine": "/tools/Xilinx/Vivado/2022.1/tps/lnx64/gcc-8.3.0/bin/g++ -I . -I /tools/Xilinx/Vitis_HLS/2022.1/bin/../include -I /tools/Xilinx/Vitis_HLS/2022.1/bin/../common/technology/autopilot/opencl -I /tools/Xilinx/Vitis/2022.1/bin/../common/technology/autopilot/opencl -I /tools/Xilinx/Vitis/2022.1/bin/../data/emulation/include -I /tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/auto_cc/include -fPIC -g -DHLS_STREAM_THREAD_SAFE -std=c++14 -fpermissive -c -MD -MT obj/xcl_top.o -MP -MF obj/xcl_top.CXXd xcl_top.cpp -o obj/xcl_top.o",
+  "args": [
+   "-I",
+   ".",
+   "-I",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../include",
+   "-I",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../common/technology/autopilot/opencl",
+   "-I",
+   "/tools/Xilinx/Vitis/2022.1/bin/../common/technology/autopilot/opencl",
+   "-I",
+   "/tools/Xilinx/Vitis/2022.1/bin/../data/emulation/include",
+   "-I",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/auto_cc/include",
+   "-fPIC",
+   "-g",
+   "-DHLS_STREAM_THREAD_SAFE",
+   "-std=c++14",
+   "-fpermissive",
+   "-c",
+   "-MD",
+   "-MT",
+   "obj/xcl_top.o",
+   "-MP",
+   "-MF",
+   "obj/xcl_top.CXXd",
+   "xcl_top.cpp",
+   "-o",
+   "obj/xcl_top.o"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:31 2024",
+ "timestampMillis": "1728707791571",
+ "status": {
+  "cmdId": "4881746c-b1e9-4403-88fd-f1f43cd4a14d",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:32 2024",
+ "timestampMillis": "1728707792652",
+ "status": {
+  "cmdId": "4881746c-b1e9-4403-88fd-f1f43cd4a14d",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Oct 12 00:36:32 2024",
+ "timestampMillis": "1728707792654",
+ "buildStep": {
+  "cmdId": "5d8ef7d6-fb19-4206-b7d7-c1ca53c88fcc",
+  "name": "g++",
+  "logFile": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1_top_gpp.log",
+  "commandLine": "/tools/Xilinx/Vivado/2022.1/tps/lnx64/gcc-8.3.0/bin/g++ -fPIC -DHLS_STREAM_THREAD_SAFE -std=c++14 -Wall -shared -Wl,--whole-archive,-soname,binary_container_1.so -o binary_container_1.so rtl_kernel_wizard_0/rtl_kernel_wizard_0.csim_cu.a krnl_vadd/krnl_vadd.csim_cu.a obj/xcl_top.o -Wl,--no-whole-archive -Wl,--as-needed -L /tools/Xilinx/Vitis_HLS/2022.1/bin/../lib/lnx64.o -lhlsmathsim -L /tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fpo_v7_0 -lgmp -lmpfr -lIp_floating_point_v7_0_bitacc_cmodel -Wl,-rpath,/tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fpo_v7_0 -L /tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fft_v9_1 -lIp_xfft_v9_1_bitacc_cmodel -L /tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fir_v7_0 -lgmp -lIp_fir_compiler_v7_2_bitacc_cmodel -L /tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/lib/csim -lhlsmc++-GCC46 -L /tools/Xilinx/Vivado/2022.1/tps/lnx64/gcc-8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/ -lgcov",
+  "args": [
+   "-fPIC",
+   "-DHLS_STREAM_THREAD_SAFE",
+   "-std=c++14",
+   "-Wall",
+   "-shared",
+   "-Wl,--whole-archive,-soname,binary_container_1.so",
+   "-o",
+   "binary_container_1.so",
+   "rtl_kernel_wizard_0/rtl_kernel_wizard_0.csim_cu.a",
+   "krnl_vadd/krnl_vadd.csim_cu.a",
+   "obj/xcl_top.o",
+   "-Wl,--no-whole-archive",
+   "-Wl,--as-needed",
+   "-L",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../lib/lnx64.o",
+   "-lhlsmathsim",
+   "-L",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fpo_v7_0",
+   "-lgmp",
+   "-lmpfr",
+   "-lIp_floating_point_v7_0_bitacc_cmodel",
+   "-Wl,-rpath,/tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fpo_v7_0",
+   "-L",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fft_v9_1",
+   "-lIp_xfft_v9_1_bitacc_cmodel",
+   "-L",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/tools/fir_v7_0",
+   "-lgmp",
+   "-lIp_fir_compiler_v7_2_bitacc_cmodel",
+   "-L",
+   "/tools/Xilinx/Vitis_HLS/2022.1/bin/../lnx64/lib/csim",
+   "-lhlsmc++-GCC46",
+   "-L",
+   "/tools/Xilinx/Vivado/2022.1/tps/lnx64/gcc-8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/",
+   "-lgcov"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:32 2024",
+ "timestampMillis": "1728707792655",
+ "status": {
+  "cmdId": "5d8ef7d6-fb19-4206-b7d7-c1ca53c88fcc",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:32 2024",
+ "timestampMillis": "1728707792720",
+ "status": {
+  "cmdId": "5d8ef7d6-fb19-4206-b7d7-c1ca53c88fcc",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Oct 12 00:36:32 2024",
+ "timestampMillis": "1728707792776",
+ "report": {
+  "path": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1_xml.rtd",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "XCLBIN_INFO",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Oct 12 00:36:32 2024",
+ "timestampMillis": "1728707792778",
+ "buildStep": {
+  "cmdId": "d4623d66-73b9-438b-b282-3639f2930e4a",
+  "name": "xclbinutil",
+  "logFile": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1_xclbinutil.log",
+  "commandLine": "/tools/Xilinx/Vitis/2022.1/bin/xclbinutil --add-section BITSTREAM:RAW:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1.so --force --target sw_emu --add-section :JSON:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1.rtd --append-section :JSON:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1_xml.rtd --add-section BUILD_METADATA:JSON:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1_build.rtd --add-section EMBEDDED_METADATA:RAW:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1.xml --add-section DEBUG_DATA:RAW:/dev/null --add-section SYSTEM_METADATA:RAW:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/systemDiagramModel.json --output /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.xclbin",
+  "args": [
+   "--add-section",
+   "BITSTREAM:RAW:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1.so",
+   "--force",
+   "--target",
+   "sw_emu",
+   "--add-section",
+   ":JSON:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1.rtd",
+   "--append-section",
+   ":JSON:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/appendSection.rtd",
+   "--add-section",
+   "CLOCK_FREQ_TOPOLOGY:JSON:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1_xml.rtd",
+   "--add-section",
+   "BUILD_METADATA:JSON:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1_build.rtd",
+   "--add-section",
+   "EMBEDDED_METADATA:RAW:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/binary_container_1.xml",
+   "--add-section",
+   "DEBUG_DATA:RAW:/dev/null",
+   "--add-section",
+   "SYSTEM_METADATA:RAW:/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/link/int/systemDiagramModel.json",
+   "--output",
+   "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:32 2024",
+ "timestampMillis": "1728707792779",
+ "status": {
+  "cmdId": "d4623d66-73b9-438b-b282-3639f2930e4a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:32 2024",
+ "timestampMillis": "1728707792902",
+ "status": {
+  "cmdId": "d4623d66-73b9-438b-b282-3639f2930e4a",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Oct 12 00:36:32 2024",
+ "timestampMillis": "1728707792905",
+ "buildStep": {
+  "cmdId": "04d51add-ee89-4546-9908-32184b90a389",
+  "name": "xclbinutil",
+  "logFile": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.xclbin.info",
+  "commandLine": "/tools/Xilinx/Vitis/2022.1/bin/xclbinutil --quiet --info --input /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.xclbin",
+  "args": [
+   "--quiet",
+   "--info",
+   "--input",
+   "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:32 2024",
+ "timestampMillis": "1728707792905",
+ "status": {
+  "cmdId": "04d51add-ee89-4546-9908-32184b90a389",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:33 2024",
+ "timestampMillis": "1728707793029",
+ "status": {
+  "cmdId": "04d51add-ee89-4546-9908-32184b90a389",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Oct 12 00:36:33 2024",
+ "timestampMillis": "1728707793035",
+ "report": {
+  "path": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Oct 12 00:36:33 2024",
+ "timestampMillis": "1728707793036",
+ "report": {
+  "path": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Oct 12 00:36:33 2024",
+ "timestampMillis": "1728707793037",
+ "report": {
+  "path": "/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1.build/logs/optraceViewer.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "OPERATION_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Oct 12 00:36:33 2024",
+ "timestampMillis": "1728707793038",
+ "status": {
+  "cmdId": "d7a47f76-8ba5-4e9e-a2fb-0366cf088b05",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>

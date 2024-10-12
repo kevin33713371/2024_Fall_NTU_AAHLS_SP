@@ -1,0 +1,29 @@
+00:54:29 **** Incremental Build of configuration Emulation-HW for project LabA_C_RTL_kernel_system ****
+make all 
+/tools/Xilinx/Vitis/2022.1/bin/v++ --package --config package.cfg ../../LabA_C_RTL_kernel_system_hw_link/Emulation-HW/binary_container_1.xclbin -o binary_container_1.xclbin
+Option Map File Used: '/tools/Xilinx/Vitis/2022.1/data/vitis/vpp/optMap.xml'
+
+****** v++ v2022.1 (64-bit)
+  **** SW Build 3524075 on 2022-04-13-17:42:45
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+INFO: [v++ 60-1306] Additional information associated with this v++ package can be found at:
+	Reports: /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system/Emulation-HW/package.build/reports/package
+	Log files: /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system/Emulation-HW/package.build/logs/package
+Running Dispatch Server on port: 41971
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system/Emulation-HW/binary_container_1.xclbin.package_summary, at Sat Oct 12 00:54:41 2024
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Sat Oct 12 00:54:41 2024
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system/Emulation-HW/package.build/reports/package/v++_package_binary_container_1_guidance.html', at Sat Oct 12 00:54:42 2024
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/xilinx_u50_gen3x16_xdma_5_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.1
+INFO: [v++ 60-2256] Packaging for hardware emulation
+INFO: [v++ 60-2460] Successfully copied a temporary xclbin to the output xclbin: /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system/Emulation-HW/binary_container_1.xclbin
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_system/Emulation-HW/binary_container_1.xclbin.package_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 16s
+INFO: [v++ 60-1653] Closing dispatch client.
+cp -f binary_container_1.xclbin ../../LabA_C_RTL_kernel/Emulation-HW
+
+00:54:47 Build Finished (took 18s.302ms)
+
