@@ -1,0 +1,6 @@
+23:34:53 **** Incremental Build of configuration Emulation-HW for project LabA_C_kernel_kernels ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+
+23:34:54 Build Finished (took 340ms)
+
