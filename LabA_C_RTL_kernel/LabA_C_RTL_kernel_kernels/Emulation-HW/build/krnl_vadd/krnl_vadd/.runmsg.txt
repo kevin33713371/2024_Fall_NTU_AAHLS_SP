@@ -1,2 +1,0 @@
-performing high-level synthesis for kernel: krnl_vadd
-Log file: /home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/LabA_C_RTL_kernel_kernels/Emulation-HW/build/krnl_vadd/krnl_vadd/vitis_hls.log

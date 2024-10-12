@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xd:repository xmlns:xd="http://www.xilinx.com/xd">
-    <xd:fcnMap xd:fcnName="rtl_kernel_wizard_0" xd:type="RTLKernel" xd:clockId="0" xd:flow="explicit" xd:componentRef="rtl_kernel_wizard_0">
-        <xd:interrupt xd:busInterfaceRef="interrupt"/>
-        <xd:ctrlReg xd:busInterface="s_axi_control" xd:portInterfaceType="axilite" xd:name="control" xd:type="ap_ctrl_hs" xd:offset="0x0"/>
-        <xd:arg xd:name="axi00_ptr0" xd:swRootName="axi00_ptr0" xd:dataWidth="64" xd:offset="0x010" xd:portInterfaceType="axilite" xd:direction="in" xd:id="0" xd:busInterfaceRef="s_axi_control" xd:aximmMasterRef="m00_axi" xd:aximmMasterDirection="inout" xd:aximmMasterDataWidth="512"/>
-    </xd:fcnMap>
-</xd:repository>
