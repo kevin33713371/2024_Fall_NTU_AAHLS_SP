@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="vpl" LaunchDir="/home/ubuntu/Desktop/02-mixing-c-rtl-kernels/LabA_c_kernel/LabA_C_kernel_system_hw_link/Emulation-HW/binary_container_1.build/link/vivado/vpl" FlowId="VPL_HW_Emulation" FromStepId="create_project" ToStepId="config_hw_emu.elaborate"/>
-</Runs>
-
