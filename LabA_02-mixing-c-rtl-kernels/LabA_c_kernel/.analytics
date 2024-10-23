@@ -27,3 +27,7 @@ timestamp=[2024-10-12 01:57:12], mode=WORKBENCH_UI_INIT, duration=0:00:00.458, d
 timestamp=[2024-10-12 02:48:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.499, duration_ms=499, data={}
 timestamp=[2024-10-12 02:48:49], mode=WORKBENCH_START, duration=0:00:15.051, duration_ms=15051, data={}
 timestamp=[2024-10-12 02:48:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.862, duration_ms=862, data={editors_count=4, platform_editors_count=0, projects_count=5, platform_projects_count=0, active_platform_editor=false, projects=LabA_C_kernel,LabA_C_kernel_kernels,LabA_C_kernel_system,LabA_C_kernel_system_hw_link,RemoteSystemsTempFiles}
+timestamp=[2024-10-16 15:54:36], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.450, duration_ms=450, data={}
+timestamp=[2024-10-16 15:54:36], mode=WORKBENCH_START, duration=0:00:08.125, duration_ms=8125, data={}
+timestamp=[2024-10-16 15:54:37], mode=WORKBENCH_UI_INIT, duration=0:00:00.608, duration_ms=608, data={editors_count=4, platform_editors_count=0, projects_count=5, platform_projects_count=0, active_platform_editor=false, projects=LabA_C_kernel,LabA_C_kernel_kernels,LabA_C_kernel_system,LabA_C_kernel_system_hw_link,RemoteSystemsTempFiles}
+timestamp=[2024-10-16 15:54:48], mode=BUILD, duration=0:00:00.647, duration_ms=647, data={name=LabA_C_kernel, configuration=Emulation-HW, clean_build=false}

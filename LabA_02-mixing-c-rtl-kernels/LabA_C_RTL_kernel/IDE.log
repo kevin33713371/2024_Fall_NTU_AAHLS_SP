@@ -68,3 +68,12 @@
 02:11:58 INFO  : Successfully done setting workspace for the tool. 
 02:11:59 INFO  : Successfully done query RDI_DATADIR 
 02:11:59 INFO  : Registering command handlers for Vitis TCF services
+16:00:16 DEBUG : Logs will be stored at '/home/ubuntu/Desktop/2024_Fall_NTU_AAHLS_SP/LabA_02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/IDE.log'.
+16:00:17 INFO  : Launching XSCT server: xsct -n  -interactive /home/ubuntu/Desktop/2024_Fall_NTU_AAHLS_SP/LabA_02-mixing-c-rtl-kernels/LabA_C_RTL_kernel/temp_xsdb_launch_script.tcl
+16:00:21 INFO  : XSCT server has started successfully.
+16:00:21 INFO  : Successfully done setting XSCT server connection channel  
+16:00:21 INFO  : plnx-install-location is set to ''
+16:00:21 INFO  : Successfully done setting workspace for the tool. 
+16:00:23 INFO  : Platform repository initialization has completed.
+16:00:25 INFO  : Successfully done query RDI_DATADIR 
+16:00:26 INFO  : Registering command handlers for Vitis TCF services

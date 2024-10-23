@@ -1,0 +1,16 @@
+16:03:23 DEBUG : Logs will be stored at '/home/ubuntu/Desktop/2024_Fall_NTU_AAHLS_SP/LabA_01_rtl_kernel_workflow/Vitis/IDE.log'.
+16:03:25 INFO  : Launching XSCT server: xsct -n  -interactive /home/ubuntu/Desktop/2024_Fall_NTU_AAHLS_SP/LabA_01_rtl_kernel_workflow/Vitis/temp_xsdb_launch_script.tcl
+16:03:25 INFO  : Registering command handlers for Vitis TCF services
+16:03:26 INFO  : Platform repository initialization has completed.
+16:03:27 INFO  : XSCT server has started successfully.
+16:03:27 INFO  : plnx-install-location is set to ''
+16:03:27 INFO  : Successfully done setting XSCT server connection channel  
+16:03:27 INFO  : Successfully done setting workspace for the tool. 
+16:03:27 INFO  : Successfully done query RDI_DATADIR 
+16:04:41 INFO  : Added binary container 'binary_container_1' in project 'KernelTest_system_hw_link'
+16:04:41 INFO  : Added kernel '[Vadd_A_B - KernelTest_kernels/src/Vadd_A_B.xo]' in binary container 'binary_container_1' of project 'KernelTest_system_hw_link'
+16:04:43 INFO  : Build configuration of 'KernelTest_system' is updated to 'Emulation-HW'
+16:04:43 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+16:04:43 INFO  : Build configuration of 'KernelTest_system_hw_link' is updated to 'Emulation-HW'
+16:04:43 INFO  : Build configuration of 'KernelTest' is updated to 'Emulation-HW'
+16:16:07 INFO  : Launching executable: Emulation-HW/KernelTest  ${project_loc:KernelTest_system}/Emulation-HW/binary_container_1.xclbin

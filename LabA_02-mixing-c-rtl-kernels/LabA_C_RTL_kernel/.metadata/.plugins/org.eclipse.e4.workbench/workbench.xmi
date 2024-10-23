@@ -39,7 +39,7 @@
           <tags>persp.newWizSC:com.xilinx.sdx.npw.revisedLibraryWizard</tags>
           <tags>persp.newWizSC:com.xilinx.sdx.npw.revisedKernelWizard</tags>
           <tags>persp.newWizSC:com.xilinx.sdx.npw.revisedPlatformWizard</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_n01-UYhNEe-q0oHGdN9tPQ" selectedElement="_n01-UohNEe-q0oHGdN9tPQ" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_n01-UYhNEe-q0oHGdN9tPQ" selectedElement="_n01-V4hNEe-q0oHGdN9tPQ" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_n01-UohNEe-q0oHGdN9tPQ" containerData="2500" selectedElement="_n01-VYhNEe-q0oHGdN9tPQ">
               <children xsi:type="basic:PartStack" xmi:id="_n01-U4hNEe-q0oHGdN9tPQ" elementId="com.xilinx.ide.projectExplorerMStack" containerData="3355" selectedElement="_n01-VIhNEe-q0oHGdN9tPQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_n01-VIhNEe-q0oHGdN9tPQ" elementId="com.xilinx.ide.projectExplorer" ref="_n0q_MIhNEe-q0oHGdN9tPQ" closeable="true">
@@ -48,7 +48,6 @@
                 </children>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_n01-VYhNEe-q0oHGdN9tPQ" elementId="com.xilinx.sdx.assistant.assistantViewMStack" containerData="6645" selectedElement="_n01-VohNEe-q0oHGdN9tPQ">
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_n01-VohNEe-q0oHGdN9tPQ" elementId="com.xilinx.sdx.assistant.assistantView" ref="_n0sNUIhNEe-q0oHGdN9tPQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Xilinx</tags>
@@ -67,6 +66,7 @@
               </children>
               <children xsi:type="basic:PartSashContainer" xmi:id="_n01-XIhNEe-q0oHGdN9tPQ" containerData="5051" selectedElement="_n01-XYhNEe-q0oHGdN9tPQ" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_n01-XYhNEe-q0oHGdN9tPQ" elementId="org.eclipse.ui.console.ConsoleViewMStack" containerData="6000" selectedElement="_n01-XohNEe-q0oHGdN9tPQ">
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_n01-XohNEe-q0oHGdN9tPQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_n0s0YIhNEe-q0oHGdN9tPQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -431,16 +431,17 @@
       <menus xsi:type="menu:PopupMenu" xmi:id="_4-7xIIhgEe-znJJ1FnoJPQ" elementId="com.xilinx.ide.projectExplorer#PopupMenu">
         <tags>menuContribution:popup</tags>
       </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_SPlM8Iv5Ee-3Hdj-QOIhTA" elementId="com.xilinx.ide.projectExplorer#PopupMenu">
+        <tags>menuContribution:popup</tags>
+      </menus>
       <toolbar xmi:id="_n4-QYYhNEe-q0oHGdN9tPQ" elementId="com.xilinx.ide.projectExplorer"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_n0sNUIhNEe-q0oHGdN9tPQ" elementId="com.xilinx.sdx.assistant.assistantView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Assistant" iconURI="platform:/plugin/com.xilinx.sdx.assistant/icons/assistant_view.png" tooltip="Assistant to manage Scout project setup, builds, and reports." closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.xilinx.sdx.assistant.view.SDXAssistantView"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.xilinx.sdx.assistant"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view AssistantView.EXPANSION=&quot;LabA_C_RTL_kernel_system,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_system_hw_link,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_kernels,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel,LabA_C_RTL_kernel_system/Emulation-SW,LabA_C_RTL_kernel_system/Emulation-HW&quot;/>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view AssistantView.EXPANSION=&quot;LabA_C_RTL_kernel_system,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_system_hw_link,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_system_hw_link/Emulation-SW,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_system_hw_link/Emulation-SW/binary_container_1,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_system_hw_link/Emulation-HW,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_system_hw_link/Emulation-HW/binary_container_1,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_system_hw_link/Hardware,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_system_hw_link/Hardware/binary_container_1,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_kernels,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_kernels/Emulation-SW,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_kernels/Emulation-SW/krnl_vadd,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_kernels/Emulation-HW,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_kernels/Emulation-HW/krnl_vadd,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel_kernels/Hardware,LabA_C_RTL_kernel_system/LabA_C_RTL_kernel&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Xilinx</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_oJ-g0IhNEe-q0oHGdN9tPQ" elementId="com.xilinx.sdx.assistant.assistantView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -453,6 +454,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_oMPxsIhNEe-q0oHGdN9tPQ" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -3331,12 +3334,13 @@
   <addons xmi:id="_nj2U84hNEe-q0oHGdN9tPQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_nj2U9IhNEe-q0oHGdN9tPQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_nj_e4IhNEe-q0oHGdN9tPQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_34qsoYhgEe-znJJ1FnoJPQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <addons xmi:id="_nlTGcIhNEe-q0oHGdN9tPQ" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
   <addons xmi:id="_MBDekIheEe-8T6KqerrYxA" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
   <addons xmi:id="_BqoycIhgEe-ebtHDThDkMg" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
   <addons xmi:id="_342S0IhgEe-znJJ1FnoJPQ" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
+  <addons xmi:id="_QPQT8Yv5Ee-3Hdj-QOIhTA" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
   <categories xmi:id="_nkP9kIhNEe-q0oHGdN9tPQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_nkQkoIhNEe-q0oHGdN9tPQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
   <categories xmi:id="_nkQkoYhNEe-q0oHGdN9tPQ" elementId="org.eclipse.ui.category.edit" name="Edit"/>
